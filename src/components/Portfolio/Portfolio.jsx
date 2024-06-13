@@ -5,6 +5,17 @@ export default function Portfolio() {
     <section id='portfolio' className='portfolio'>
       <div className='portfolio__content'>
         <h4 className='portfolio__title'>Портфолио</h4>
+        <div class="text-container">
+            <span>П</span>
+            <span>о</span>
+            <span>р</span>
+            <span>т</span>
+            <span>ф</span>
+            <span>о</span>
+            <span>л</span>
+            <span>и</span>
+            <span>о</span>
+          </div>
         <ul className='portfolio__list'>
           
           <li>

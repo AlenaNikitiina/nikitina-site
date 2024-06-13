@@ -83,3 +83,93 @@
     text-align: center;
   }
 }
+
+.f {
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo Thambi', cursive;
+  font-size: 1rem;
+}
+
+.text-container > span {
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+  }
+  
+  10%, 90% {
+    color: #111;
+    text-shadow: none;
+  }
+}
+
+.text-container > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.text-container > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.text-container > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.text-container > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.text-container > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+.text-container > span:nth-child(7) {
+	animation-delay: 1.5s;
+}
+
+.text-container > span:nth-child(8) {
+	animation-delay: 1.75s;
+}
+
+.text-container > span:nth-child(9) {
+	animation-delay: 2s;
+}
+
+.text-container > span:nth-child(10) {
+	animation-delay: 2.25s;
+}
+
+.text-container > span:nth-child(11) {
+	animation-delay: 2.5s;
+}
+
+.text-container > span:nth-child(12) {
+	animation-delay: 2.75s;
+}
+
+.text-container > span:nth-child(13) {
+	animation-delay: 3s;
+}
+
+.text-container > span:nth-child(14) {
+	animation-delay: 3.25s;
+}
+
+.text-container > span:nth-child(15) {
+	animation-delay: 3.5s;
+}
+
+.text-container > span:nth-child(16) {
+	animation-delay: 4s;
+}
+
+.text-container > span:nth-child(17) {
+	animation-delay: 4.25s;
+}

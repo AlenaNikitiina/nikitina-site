@@ -54,3 +54,28 @@
     padding: 0;
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+.an {
+  border-right: solid 4px var(--text-grey);
+  white-space: wrap;
+  overflow: hidden;
+  font-family: 'Comfortaa-Regular', Arial, sans-serif;
+  color: black;
+}
+/* Animation */
+.an {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+/* text animation */
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 150px;}
+}
+/* cursor animations */
+@keyframes animated-cursor{
+  from{border-right-color: var(--text-grey);}
+  to{border-right-color: transparent;}
+}

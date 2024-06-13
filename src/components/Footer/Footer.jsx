@@ -4,8 +4,32 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer className='footer'>
-      <div className='footer__content'>
+      <section className='footer__content'>
         <p className='footer__sign'>Разработка сайтов</p>
+        
+        <div className='f'>
+        <div class="text-container">
+            <span>Р</span>
+            <span>а</span>
+            <span>з</span>
+            <span>р</span>
+            <span>а</span>
+            <span>б</span>
+            <span>о</span>
+
+            <span>т</span>
+            <span>к</span>
+            <span>а</span>
+            <span> </span>
+            <span>с</span>
+            <span>а</span>
+            <span>й</span>
+            <span>т</span>
+            <span>о</span>
+            <span>в</span>
+          </div>
+          </div>
+
         <nav className='footer__text'>
           <p className='footer__copyright'>© {(new Date()).getFullYear()}</p>
           <ul className='footer__list'>
@@ -20,7 +44,7 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
-      </div>
+      </section>
     </footer>
   )
 }

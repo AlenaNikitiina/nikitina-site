@@ -16,6 +16,7 @@ export default function AboutMe() {
           <img className='about-me__photo' src={me} alt='мое фото' />
         </div>
       </div>
+      
     </section>
   )
 }
