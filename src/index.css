@@ -15,6 +15,7 @@
 }
 
 :root {
+  scroll-behavior: smooth;
   --preview-color: rgb(240, 183, 245);
   --white: #FFFFFF;
   --black: #000000;

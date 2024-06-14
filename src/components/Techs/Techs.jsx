@@ -6,7 +6,7 @@ export default function Techs() {
       <div className='techs__content'>
         <h2 className='techs__title title'>Технологии</h2>
         <h3 className='techs__subtitle'>7 технологий</h3>
-        <p className='techs__paragraph'>На курсе веб-разработки я освоилa технологии, которые применяю теперь в своих проектах.</p>
+        <p className='techs__paragraph'>На курсах веб-разработки я освоилa технологии, которые применяю теперь в своих проектах.</p>
         <ul className='techs__list'>
           <li className='techs__item'>HTML5</li>
           <li className='techs__item'>CSS</li>
