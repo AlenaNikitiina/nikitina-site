@@ -19,7 +19,7 @@ export default function AboutProject() {
           </div>
       </div>
 
-        <div className="about-project__time">
+        <div className='about-project__time'>
           <p className='about-project__back about-project__time-text'>1 неделя</p>
           <p className='about-project__front about-project__time-text'>1,5 недели</p>
           <p className='about-project__back about-project__time-text about-project__end'>Верстка</p>

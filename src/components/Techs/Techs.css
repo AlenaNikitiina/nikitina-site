@@ -12,8 +12,8 @@
 .techs__subtitle {
   margin: 90px auto 26px auto;
   font-size: 50px;
+  line-height: 1.2;
   font-weight: 400;
-  line-height: 58px;
   letter-spacing: -0.04em;
   text-align: center;
 }
@@ -21,8 +21,8 @@
 .techs__paragraph {
   max-width: 460px;
   margin: 0 auto 100px;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 1.2;
   letter-spacing: -0.04em;
   text-align: center;
 }
@@ -63,7 +63,7 @@
   }
   .techs__paragraph {
     margin: 0 auto 85px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
   }
   .techs__item {
@@ -83,12 +83,10 @@
   .techs__subtitle {
     margin: 62px auto 22px;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 1.4;
   }
   .techs__paragraph {
     margin: 0 auto 52px;
-    font-size: 11px;
-    line-height: 16px;
   }
   .techs__list {
     justify-content: flex-start;

@@ -12,7 +12,7 @@
   margin: 0 0 32px;
   font-size: 20px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.2;
   letter-spacing: 0px;
   text-align: left;
   color: var(--text-grey);
@@ -31,7 +31,7 @@
   padding: 20px 0;
   border-bottom: 1px solid var(--dark-grey);
   font-size: 30px;
-  line-height: 50px;
+  line-height: 1.4;
   letter-spacing: -0.04em;
   text-align: left;
 }
@@ -58,6 +58,5 @@
   .portfolio__item {
     padding: 17px 0;
     font-size: 18px;
-    line-height: 28px;
   }
 }

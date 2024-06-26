@@ -13,13 +13,13 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 70px;
-  margin: 66px 0 0;
+  margin: 65px 0 0;
 }
 
 .title {
   margin: 0;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 1.2;
   letter-spacing: -0.04em;
   font-weight: 400;
   text-align: left;
@@ -35,10 +35,10 @@
 }
 
 .about-me__name {
-  margin: 0 ;
+  margin: 0;
   font-size: 50px;
   font-weight: 400;
-  line-height: 58px;
+  line-height: 1.2;
   letter-spacing: -0.04em;
   text-align: left;
 }
@@ -47,15 +47,15 @@
   margin: 18px 0 0;
   font-size: 18px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.2;
   letter-spacing: 0px;
   text-align: left;
 }
 
 .about-me__text {
-  margin: 26px 0 0;
+  margin: 25px 0 0;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.4;
   letter-spacing: 0px;
   text-align: left;
 }
@@ -83,8 +83,6 @@
   margin: 100px 0 0;
   font-size: 14px;
   font-weight: 500;
-  line-height: 17px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -100,16 +98,14 @@
   }
   .about-me__name {
     font-size: 40px;
-    line-height: 40px;
   }
   .about-me__profession {
     font-size: 12px;
-    line-height: 18px;
     margin: 16px 0 0;
   }
   .about-me__text {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.4;
     margin: 20px 0 0;
   }
   .about-me__photo {
@@ -133,12 +129,9 @@
   }
   .about-me__name {
     font-size: 30px;
-    line-height: 36px;
     margin: 40px 0 0;
   }
   .about-me__profession {
-    font-size: 11px;
-    line-height: 16px;
     margin: 20px 0 0;
   }
   .about-me__photo {
@@ -147,10 +140,5 @@
   }
   .about-me__link {
     margin: 40px 0 0;
-  }
-  .about-me__text{
-    line-height: 16px;
-    letter-spacing: 0px;
-    text-align: left;
   }
 }
