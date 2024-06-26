@@ -54,7 +54,7 @@
 
 .about-me__text {
   margin: 26px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   letter-spacing: 0px;
   text-align: left;
@@ -108,7 +108,7 @@
     margin: 16px 0 0;
   }
   .about-me__text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     margin: 20px 0 0;
   }
@@ -149,7 +149,6 @@
     margin: 40px 0 0;
   }
   .about-me__text{
-    font-size: 11px;
     line-height: 16px;
     letter-spacing: 0px;
     text-align: left;

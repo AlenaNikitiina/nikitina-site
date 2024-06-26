@@ -6,9 +6,9 @@ export default function Portfolio() {
       <div className='portfolio__content'>
         <h4 className='portfolio__title'>Портфолио</h4>
         <ul className='portfolio__list'>
-          <li>
-            <a className='portfolio__item link' href='https://alenanikitiina.github.io/movies-explorer-frontend/index.html' target='blank'>
-            Приложение для поиска и просмотра фильмов
+        <li>
+            <a className='portfolio__item link' href='https://litueva-mentor.ru' target='blank'>
+              Личный сайт Нутрициолога
               <span className='portfolio__span'>↗</span></a>
           </li>
           <li>
@@ -17,13 +17,13 @@ export default function Portfolio() {
               <span className='portfolio__span'>↗</span></a>
           </li>
           <li>
-            <a className='portfolio__item link' href='https://github.com/AlenaNikitiina/react-mesto-api-full-gha' target='blank'>
-              Место
+            <a className='portfolio__item link' href='https://alenanikitiina.github.io/movies-explorer-frontend/index.html' target='blank'>
+            Приложение для поиска и просмотра фильмов
               <span className='portfolio__span'>↗</span></a>
           </li>
           <li>
-            <a className='portfolio__item link' href='https://litueva-mentor.ru' target='blank'>
-              Личный сайт врача нутрициолога
+            <a className='portfolio__item link' href='https://alenanikitiina.github.io/react-mesto-api-full-gha/' target='blank'>
+              Приложение с фотографиями
               <span className='portfolio__span'>↗</span></a>
           </li>
       </ul>
