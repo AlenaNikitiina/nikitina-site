@@ -58,7 +58,7 @@
   margin: 0 auto;
   width: 100%;
   align-self: center;
-  box-shadow: rgb(90 60 95) 8px 8px 10px;
+  box-shadow: rgb(90 60 95) 5px 5px 15px;
 }
 
 @media screen and (max-width: 870px) {
